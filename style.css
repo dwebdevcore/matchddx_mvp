@@ -1,0 +1,550 @@
+
+
+ body {background-color:#f4f6f7;
+  font-family:Avenir;}
+
+p.small {
+    line-height: 0.7;
+}
+
+.top-header {
+  background: white;
+  display: flex;
+  font-family: Avenir-Heavy;
+  font-size: 12px;
+  font-weight: 900;
+  letter-spacing: 0;
+  border:  0;
+  margin: 0;
+  height:60px;
+   vertical-align: top;
+}
+
+.title { 
+  float:right;
+  text-align: left;
+  width:20%;
+  overflow: auto;
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 180%;
+  padding-top: 10px;
+  padding-left: 5px;
+}
+
+input[type=submit].link { 
+  border: none; background: none; display: inline; color: blue; text-decoration: underline;
+  font-size: 60%;
+  text-align: bottom; 
+}
+
+.nav-container {
+  display: flex;
+  width:60%;
+  vertical-align: middle;
+  margin-top:30px;
+}
+
+.nav-element { 
+  float:right;
+  text-align: center;
+  width:33%;
+  overflow: auto;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.nav-active {
+  float:right;
+  text-align: center;
+  width:33%;
+  overflow: auto;
+  display: inline-block;
+  vertical-align: middle;
+  color: #4b7f98;
+  text-decoration: underline;
+}
+
+.nav-inactive {
+  float:right;
+  text-align: center;
+  width:33%;
+  overflow: auto;
+  display: inline-block;
+  vertical-align: middle;
+  color: #637280;
+}
+
+.nav-inactive a {
+  color: #637280;
+  text-decoration: none;
+}
+
+.logo-wrap {
+  float:right;
+  text-align: right;
+  width:20%;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right:20px;
+  overflow: hidden;
+}
+
+.match-logo {
+  text-align: right;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right:10px; 
+  margin-top: 25px;
+  margin-bottom: -20px;
+}
+
+.logo-img {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.gravatar {
+border-radius: 50%;
+}
+.base-copy {
+  width: 50px;
+  height: 9px;
+  object-fit: contain;
+  border-radius: 1px;
+
+  border: solid 0.2px #dfe3e9;
+}
+
+#body-wrap {
+    width: 100%;
+    overflow: hidden; /* add this to contain floated children */
+}
+
+#logout {
+    overflow: hidden; /* add this to contain floated children */
+    text-align: right;
+}
+
+#logout-2 {
+    overflow: hidden; /* add this to contain floated children */
+    text-align: right;
+    margin-top: 8px;
+}
+
+
+#wrapper {
+    width: 100%;
+    overflow: hidden; /* add this to contain floated children */
+}
+
+
+#first {
+    width: 100px;
+    float:left; /* add this */
+}
+
+#left {
+    float:left;
+    width:100px;
+}
+
+#center {
+    display: inline-block;
+    float:left;
+    margin:0 auto;
+    width:220px;
+}
+
+#center-2 {
+    display: inline-block;
+    float:left;
+    margin:0 auto;
+    width:60%;
+}
+
+#right {
+    float:left;
+    width:200px;
+}
+
+.styled-select select {
+  background-color: #ffffff;
+   width: 200px;
+   padding: 5px;
+   margin-right: 10px;
+   font-size: 14px;
+   line-height: 1;
+   border: 1px solid #ccc;
+   border-radius: 0;
+   height: 34px;
+   overflow: hidden;
+   display: inline-block;
+   }
+
+  .styled-select-2 select {
+  background-color: #ffffff;
+   width: 240px;
+   padding: 5px;
+   font-size: 14px;
+   line-height: 1;
+   border: 1px solid #ccc;
+   border-radius: 0;
+   height: 34px;
+   overflow: hidden;
+   -webkit-appearance: none;
+   float:right;
+   }
+
+
+.bg {
+  width: 92%;
+  height: 80px;
+  border: 1px solid #dddddd;
+  object-fit: contain;
+  border-radius: 3px;
+  background-color: #ffffff;
+  box-shadow: 0 1px 2.5px 0 rgba(202, 202, 202, 0.15);
+  padding: 5px;
+}
+
+.bg2 {
+  width: 98%;
+  min-height: 100px;
+  height: 100%;
+  border: 1px solid #dddddd;
+  object-fit: contain;
+  border-radius: 3px;
+  background-color: #ffffff;
+  box-shadow: 0 1px 2.5px 0 rgba(202, 202, 202, 0.15);
+}
+
+#bg-rail {
+  width: 100%;
+  min-height: 200px;
+  height: 100%;
+  border: 1px solid #dddddd;
+  object-fit: contain;
+  border-radius: 3px;
+  background-color: #ffffff;
+  box-shadow: 0 1px 2.5px 0 rgba(202, 202, 202, 0.15);
+}
+
+#bg-cloud {
+  border: 1px solid #dddddd;
+  object-fit: contain;
+  border-radius: 3px;
+  background-color: #ffffff;
+  box-shadow: 0 1px 2.5px 0 rgba(202, 202, 202, 0.15);
+}
+
+#wrapper-2 {
+    width: 76%;
+    overflow: hidden; /* add this to contain floated children */
+}
+
+#bg-first {
+    text-align: left; width: 33%; display: inline-block;
+}
+
+#bg-second {
+    text-align: left; width: 32%; display: inline-block;
+  }
+
+#bg-third {
+    text-align: left; width: 33%; display: inline-block;
+}
+
+#wrapper-3 {
+   width: 24%;
+   float:right; display: inline-block; text-align: left;
+}
+
+#sumdeets {
+   font-size: 90%;
+}
+
+#wrapper-4 {
+   width: 100%;
+   float:right; display: inline-block; text-align: left;
+   margin-top: 2px;
+}
+
+#w4-1 {
+   text-align: left; width: 40%; display: inline-block;
+   font-size: 10px;
+   color: #adadbd;
+   vertical-align: top;
+}
+
+#w4-2 {
+   text-align: left; width: 45%; display: inline-block;
+   padding-left: 5px;
+   font-size: 10px;
+    color: #00bd9a;
+    vertical-align: top;
+}
+
+#result {
+   font-size: 25px;
+}
+
+.rectangle-8 {
+  text-align: left; width: 2%; display: inline-block;
+  width: 0.5px;
+  height: 25px;
+  border: solid 0.3px #ededed;
+  margin-top: 10px;
+}
+
+.content-block {
+  text-align: center; width: 24%; display: inline-block; border-radius: 3px; vertical-align: top;
+}
+
+#chartcanvas {
+  display: none;
+}
+/*
+#content-first {
+  text-align: center; width: 24%; display: inline-block; border-radius: 3px;
+}
+
+#content-second {
+    text-align: center; width: 24%; display: inline-block; border-radius: 3px;
+  }
+
+#content-third {
+    text-align: center; width: 24%; display: inline-block; border-radius: 3px;
+}*/
+
+/*#content-fourth {
+    text-align: center; width: 24%; display: inline-block; border-radius: 3px; vertical-align: top;
+}*/
+
+#brow-first {
+    text-align: left; width: 24%; display: inline-block;
+}
+
+#brow-second {
+    text-align: left; width: 25%; display: inline-block;
+  }
+
+#brow-third {
+    text-align: left; width: 50%; display: inline-block;
+}
+
+.fill {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    height: 110px;
+    border-radius: 3px;
+    position:relative;
+}
+.fill img {
+    flex-shrink: 0;
+    min-width: 100%;
+    min-height: 100%
+}
+
+.infill {
+position: absolute;
+top: 0;
+left:0;
+color: white;
+margin: 10px;
+}
+
+
+table {
+    font-family: Avenir, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    font-size: 90%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+.table-one {
+   width:500px;
+}
+
+.table-one {
+   width:200px;
+}
+
+.container {
+  display: flex;
+}
+
+
+.container > div {
+  flex: 1; /*grow*/
+}
+
+   canvas {
+        -moz-user-select: none;
+        -webkit-user-select: none;
+        -ms-user-select: none;
+    }
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+ 
+    /* Position the tooltip text - see examples below! */
+    position: absolute;
+    z-index: 1;
+}
+
+.tooltip {
+    position: relative;
+    display: inline-block; }
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#mediatable tr:hover td {
+    -moz-box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5) inset;
+    -webkit-box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5) inset;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5) inset;
+}
+#mediatable tr:hover td:first-child {
+    -moz-box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5) inset;
+    -webkit-box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5) inset;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5) inset;
+}
+#mediatable tr:hover td:last-child {
+    -moz-box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5) inset;
+    -webkit-box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5) inset;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5) inset;
+}
+
+#mediatable {font-size: 75%;}
+
+#shoppertable {font-size: 82%;}
+
+#login_form input,
+#register_form input,
+#recovery_form input,
+#change_psd_form input{
+  display: block;
+  padding: 5px;
+  margin-bottom: 5px;
+
+}
+#login_form div{
+  margin-top: 5px;
+ 
+}
+#login_form input[type=submit],
+#register_form input[type=submit],
+#recovery_form input[type=submit],
+#change_psd_form input[type=submit]{
+  width: 183px;
+  height: 32px;
+  background-color: #fff;
+  box-shadow: none;
+  border: 1px solid #000000;
+  cursor: pointer;
+  margin-top: 5px;
+}
+#register_form a,
+#login_form a,
+#recovery_form a{
+    height: 32px;
+
+    display: block;
+  text-decoration: none;
+  text-align: center;
+  width: 181px;
+  border: 1px solid;
+  margin-top: 5px;
+  color: #000;
+  background-color: #fff;
+    line-height: 30px;
+}
+
+#register_form select,
+#recovery_form select{
+  height: 30px;
+  margin-left: 19px;
+  margin-bottom: 7px;
+}
+
+#register_form input[type=file] {
+  padding: 0;
+  margin: 9px 0;
+}
+
+#register_form,
+#recovery_form,
+#change_psd_form{
+  width: 240px;
+  margin: 0 auto;
+}
+
+#login_form {
+  width: 190px;
+  margin: 0 auto;
+}
+
+.brand_class{
+    margin-bottom: 10px;
+}
+

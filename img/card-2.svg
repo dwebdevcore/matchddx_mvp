@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="134" height="60" viewBox="0 0 134 60">
+    <defs>
+        <linearGradient id="b" x1="100%" x2="0%" y1="50%" y2="50%">
+            <stop offset="0%" stop-color="#F9D423"/>
+            <stop offset="100%" stop-color="#F83600"/>
+        </linearGradient>
+        <rect id="a" width="134" height="60" rx="1.792"/>
+        <rect id="d" width="134" height="60" rx="1.792"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <g>
+            <mask id="c" fill="#fff">
+                <use xlink:href="#a"/>
+            </mask>
+            <use fill="url(#b)" opacity=".84" xlink:href="#a"/>
+            <g fill="url(#b)" mask="url(#c)">
+                <g transform="rotate(-11 -102.432 -110.504)">
+                    <circle cx="63.46" cy="99.979" r="35.897" opacity=".84" transform="rotate(-25 63.46 99.98)"/>
+                    <circle cx="47.907" cy="47.935" r="35.897" opacity=".2" transform="rotate(-25 47.907 47.935)"/>
+                </g>
+            </g>
+            <g mask="url(#c)">
+                <mask id="e" fill="#fff">
+                    <use xlink:href="#d"/>
+                </mask>
+                <use fill="url(#b)" opacity=".84" xlink:href="#d"/>
+                <g fill="url(#b)" mask="url(#e)">
+                    <g transform="rotate(-11 -102.432 -110.504)">
+                        <circle cx="63.46" cy="99.979" r="35.897" opacity=".84" transform="rotate(-25 63.46 99.98)"/>
+                        <circle cx="47.907" cy="47.935" r="35.897" opacity=".2" transform="rotate(-25 47.907 47.935)"/>
+                    </g>
+                </g>
+            </g>
+        </g>
+        <path fill="#FFF" fill-rule="nonzero" d="M9.908 6.758h1.617L9.908 8.123 8.111 6.607 6 8.388l.629.53 1.482-1.25 1.797 1.516 2.246-1.895v1.365h.899V6H9.908z"/>
+        <text fill="#FFF" font-family="Avenir-Medium, Avenir" font-size="6" font-weight="400" letter-spacing=".189">
+            <tspan x="17" y="53">Twitch.TV</tspan>
+        </text>
+        <text fill="#FFF" font-family="Avenir-Roman, Avenir" font-size="5" letter-spacing=".158">
+            <tspan x="100" y="53">see more…</tspan>
+        </text>
+        <path fill="#FFFFFE" d="M11.09 54.087H9.66L8.705 55H7.75v-.913H6v-4.87L6.477 48H13v4.261l-1.91 1.825zm1.274-2.13v-3.349h-5.25v4.414h1.432v.912l.954-.912h1.75l1.114-1.066zm-3.5-.305v-1.826H9.5v1.826h-.636zm1.75 0v-1.826h.636v1.826h-.636z"/>
+    </g>
+</svg>
